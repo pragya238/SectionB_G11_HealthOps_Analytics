@@ -1,0 +1,2 @@
+Total_Patients,Unique_Hospitals,Unique_Diagnoses,Unique_Regions,Recovery_Rate_Pct,Mortality_Rate_Pct,Under_Treatment_Rate_Pct,Avg_Treatment_Cost,Median_Treatment_Cost,Cost_Std_Dev,High_Cost_Patient_Pct,Insurance_Coverage_Pct,Private_Hospital_Pct,Financial_Distress_Pct,Vulnerable_Patient_Pct,Avg_Doctor_Availability,Avg_Cleanliness_Score,Avg_Doctor_Experience_Yrs,Avg_Operational_Access_Idx
+24000,3,5,4,82.56,4.88,12.56,24849.47,23413.86,11855.94,10.0,33.29,66.67,30.17,9.25,5.64,2.78,18.92,0.5

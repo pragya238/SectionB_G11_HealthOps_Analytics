@@ -1,0 +1,36 @@
+Column,Dtype,Null_Count,Unique_Values,Description
+Patient_ID,str,0,8000,Unique patient identifier
+Age,float64,0,67,Patient age in years
+Gender,str,0,2,Patient gender (Male / Female)
+Hospital,str,0,3,Hospital name
+Hospital_Type,str,0,2,Government or Private
+Diagnosis,str,0,5,Primary diagnosis category
+Treatment_Cost,float64,0,20919,Total treatment cost in ₹ INR
+Doctor_Experience_Years,float64,0,40,Treating doctors years of experience
+Doctor_Availability,int64,0,14,Availability score (higher = more available)
+Cleanliness_Score,int64,0,5,Facility cleanliness rating
+Economic_Status,str,0,3,Patient economic status (Low / Medium / High)
+Outcome,str,0,3,Treatment outcome (Recovered / Deceased / Under Treatment)
+Insurance,str,0,2,Whether patient is insured (Yes / No)
+Region,str,0,4,Geographic region (North / South / East / West)
+Hospital_ID,str,0,3,Unique hospital identifier
+Age_Group,str,0,3,Derived age band from cleaning step
+Cost_Tier,str,0,4,Derived cost band from cleaning step
+Recovered_Flag,int8,0,2,1 if Outcome == Recovered
+Deceased_Flag,int8,0,2,1 if Outcome == Deceased
+Under_Treatment_Flag,int8,0,2,1 if Outcome == Under Treatment
+Insured_Flag,int8,0,2,1 if Insurance == Yes
+Private_Hospital_Flag,int8,0,2,1 if Hospital_Type == Private
+Male_Flag,int8,0,2,1 if Gender == Male
+Female_Flag,int8,0,2,1 if Gender == Female
+Vulnerable_Patient_Flag,int8,0,2,1 if Senior + Low income + Uninsured
+Cost_vs_Overall_Avg,float64,0,20919,Treatment_Cost minus overall mean (₹)
+Cost_Pct_vs_Overall_Avg,float64,0,12218,% deviation from overall mean cost
+Cost_vs_Diagnosis_Avg,float64,0,20884,Treatment_Cost minus within-diagnosis mean (₹)
+Cost_vs_Hospital_Avg,float64,0,20920,Treatment_Cost minus within-hospital mean (₹)
+Cost_Percentile_Rank,float64,0,907,Patients cost percentile (0–100) globally
+High_Cost_Flag,int8,0,2,1 if Treatment_Cost ≥ 90th percentile
+Operational_Access_Index,float64,0,1549,Weighted composite: 50% avail + 30% clean + 20% exp (0–1)
+Quality_Tier,category,0,4,Quartile band of Operational_Access_Index (Low/Medium/High/Premium)
+Hospital_Patient_Volume,int64,0,1,Total patients seen at same hospital in this dataset
+Financial_Distress_Flag,int8,0,2,1 if Uninsured AND cost > overall mean

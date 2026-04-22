@@ -1,5 +1,5 @@
-Region,Patient_Volume,Avg_Treatment_Cost,Median_Treatment_Cost,Recovery_Rate,Mortality_Rate,Under_Treatment_Rate,Insurance_Coverage_Rate,Avg_Doctor_Availability,Avg_Cleanliness_Score,Avg_Operational_Access_Index
-East,4809,25098.38,23569.09,84.09,5.05,10.85,31.0,5.63,2.76,0.5
-North,9600,24800.05,23426.72,82.06,4.66,13.28,33.47,5.76,2.82,0.51
-South,4722,24440.15,23035.35,82.78,4.51,12.71,34.05,5.51,2.74,0.49
-West,4869,25098.05,23560.2,81.82,5.48,12.69,34.44,5.53,2.76,0.49
+Region,Patient_Volume,Avg_Age,Avg_Treatment_Cost,Median_Treatment_Cost,Std_Treatment_Cost,Min_Treatment_Cost,Max_Treatment_Cost,High_Cost_Patient_Rate,Recovery_Rate,Mortality_Rate,Under_Treatment_Rate,Insurance_Coverage_Rate,Private_Hospital_Rate,Financial_Distress_Rate,Vulnerable_Patient_Rate,Avg_Doctor_Availability,Avg_Cleanliness_Score,Avg_Doctor_Experience,Avg_Operational_Index,Volume_Share_Pct
+East,4809,50.45,25098.38,23569.09,11970.25,2733.06,72926.06,10.52,84.09,5.05,10.85,31.0,66.67,32.27,8.42,5.63,2.76,18.41,0.5,20.04
+North,9600,51.41,24800.05,23426.72,11918.31,1080.55,72277.11,9.94,82.06,4.66,13.28,33.47,66.67,30.11,9.59,5.76,2.82,19.01,0.51,40.0
+South,4722,50.93,24440.15,23035.35,11470.5,2073.74,69182.57,9.09,82.78,4.51,12.71,34.05,66.67,28.42,8.39,5.51,2.74,19.14,0.49,19.68
+West,4869,51.29,25098.05,23560.2,11977.69,2424.96,71522.56,10.49,81.82,5.48,12.69,34.44,66.67,29.88,10.23,5.53,2.76,19.05,0.49,20.29

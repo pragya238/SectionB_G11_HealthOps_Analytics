@@ -35,13 +35,13 @@ For a full breakdown of variables, see the [Data Dictionary](docs/data_dictionar
 
 | Role | Primary Responsibility | Owner Name |
 |:---|:---|:---|
-| **Project Lead** | Repo setup, timeline management, submission compliance, and Gate 1. | [Name] |
-| **Data Lead** | Dataset sourcing, raw data commit, and owning `docs/data_dictionary.md`. | [Name] |
-| **ETL Lead** | Notebooks 01 and 02 — Python extraction and cleaning pipeline. | [Name] |
-| **Analysis Lead** | Notebooks 03 and 04 — EDA and statistical analysis in Python. | [Name] |
-| **Visualization Lead** | Tableau dashboard design, publishing to Tableau Public, and screenshots. | [Name] |
-| **Strategy Lead** | Problem statement, KPI framework, and business recommendations. | [Name] |
-| **PPT & Quality Lead** | Final report PDF, presentation deck, and contribution quality. | [Name] |
+| **Project Lead** | Repo setup, timeline management, submission compliance, and Gate 1. | Manan Bansal |
+| **Data Lead** | Dataset sourcing, raw data commit, and owning `docs/data_dictionary.md`. | Arjun Singh |
+| **ETL Lead** | Notebooks 01 and 02 — Python extraction and cleaning pipeline. | Shrihari K N |
+| **Analysis Lead** | Notebooks 03 and 04 — EDA and statistical analysis in Python. | Udit Jain |
+| **Visualization Lead** | Tableau dashboard design, publishing to Tableau Public, and screenshots. | Manan Bansal |
+| **Strategy Lead** | Problem statement, KPI framework, and business recommendations. | Harshita Joshi |
+| **PPT & Quality Lead** | Final report PDF, presentation deck, and contribution quality. | Pragya Kashyap |
 
 ---
 

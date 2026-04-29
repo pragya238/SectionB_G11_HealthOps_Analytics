@@ -86,4 +86,4 @@ File: `HealthOps_Analytics_Presentation.pptx.pdf`
 
 1. Clone the repository  
    ```bash
-   git clone [https://github.com/Pinfinity07/SectionB_G11_HealthOps_Analytics/](https://github.com/Pinfinity07/SectionB_G11_HealthOps_Analytics/edit/main/reports/README.md)
+   git clone [https://github.com/Pinfinity07/SectionB_G11_HealthOps_Analytics/]
